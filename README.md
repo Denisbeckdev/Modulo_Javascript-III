@@ -13,20 +13,26 @@ Esta é nossa última atividade de código envolvendo Javascript III do módulo 
 ## Switch, Case e Default
 
 1. Implemente a função 'retornaDiaSemana' que verifique o dia da semana correspondente a um número
+    ```
     1 sendo Domingo
     7 sendo Sábado
+    ```
 
 2. Implemente a função 'retornaPrecoProduto' que verifique o preço do produto com base no código de produto
+    ```
     Produto A = Preço: 10.99
     Produto B = Preço: 5.99
     Produto C = Preço: 7.5
     Caso nao seja nenhum deles = Código inválido
+    ```
 
 3. Implemente a função 'retornaCategoriaProduto' que verifique a categoria de um produto com base no tipo de produto
+    ```
     Tipo de Produto: Eletrônicos = Categoria: Tecnologia
     Tipo de Produto: Roupas = Categoria: Moda
     Tipo de Produto: Alimentos = Categoria: Alimentação
     Caso não seja nenhum deles = 'Categoria desconhecida'
+    ```
 
 
 ## Conversão de Tipos
@@ -37,15 +43,21 @@ Esta é nossa última atividade de código envolvendo Javascript III do módulo 
 ## Objects
 
 1. Implemente a função 'calcularRetangulo' que calcule o perímetro e a área de um retângulo usando um objeto
+    ```json
     retangulo = {
         largura: ...,
         altura: ...,
     };
+    ```
 2. Implemente a função 'ehAdulto' que verifique se uma pessoa é maior de idade com base em seu objeto de informações
-    nome: 'John'
-    idade: 25
-    cidade: 'New York'
-    
+    ```json
+    { 
+        nome: 'John'
+        idade: 25
+        cidade: 'New York'
+    }
+    ```
+
 3. Implemente a função 'concatenaValores' que concatene os valores de um objeto em uma string
 
 ## Funções de alta ordem
