@@ -37,10 +37,15 @@ Esta é nossa última atividade de código envolvendo Javascript III do módulo 
 ## Objects
 
 1. Implemente a função 'calcularRetangulo' que calcule o perímetro e a área de um retângulo usando um objeto
+    retangulo = {
+        largura: ...,
+        altura: ...,
+    };
 2. Implemente a função 'ehAdulto' que verifique se uma pessoa é maior de idade com base em seu objeto de informações
     nome: 'John'
     idade: 25
     cidade: 'New York'
+    
 3. Implemente a função 'concatenaValores' que concatene os valores de um objeto em uma string
 
 ## Funções de alta ordem
