@@ -10,7 +10,7 @@ function somaNumeros(n) {
 // Verifica se um número é par
 function ehPar(number) {
   if (number === 0) {
-      return true;
+      return true; 
   }
   if (number === 1) {
       return false;

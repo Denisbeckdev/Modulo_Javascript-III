@@ -1,16 +1,22 @@
 // Converte uma string para um número inteiro
+// Sua implementação aqui
+
 function convertToInt(string) {
-    // Sua implementação aqui
+    return parseInt(string);
 }
 
 // Converte um número inteiro para uma string
-function convertToString(number) {
-    // Sua implementação aqui
+// Sua implementação aqui
+
+function convertToString(numero) {
+    return String(numero);
 }
 
 // Converte um valor para um booleano
-function convertToBoolean(value) {
-    // Sua implementação aqui
+// Sua implementação aqui
+
+function convertToBoolean(valor) {
+    return Boolean(valor);
 }
 
 module.exports = { convertToInt, convertToString, convertToBoolean };
